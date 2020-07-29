@@ -7,4 +7,6 @@ const productsController = new ProductsController();
 
 productsRouter.post('/', productsController.create);
 
+productsRouter.put('/:id', productsController.update);
+
 export default productsRouter;
